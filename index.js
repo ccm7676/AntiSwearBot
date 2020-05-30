@@ -19,7 +19,7 @@ bot.on('message', (message)=>{
 
     if(message.content.toLowerCase().includes("fuck") || message.content.toLowerCase().includes("cunt") || message.content.toLowerCase().includes("bitch") || message.content.toLowerCase().includes("ass") || message.content.toLowerCase().includes("fag") || message.content.toLowerCase().includes("shit") || message.content.toLowerCase().includes("nigger")|| message.content.toLowerCase().includes("nigga") || message.content.toLowerCase().includes("cum") || message.content.toLowerCase().includes("slut") || message.content.toLowerCase().includes("dick") || message.content.toLowerCase().includes("basterd") || message.content.toLowerCase().includes("cock")){
         if(message.member.roles.has(warn3)){
-            message.member.ban();
+            message.member.ban("swearing");
             message.channel.send(message.member + "was hit with the banhammer ban")
         }
         else if(message.member.roles.has(warn2)){
