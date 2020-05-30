@@ -5,7 +5,6 @@ const warn1 = "716217501511450624";
 const warn2 = "716217651759939644";
 const warn3 = "716217925232623706";
 
-const token = 'Njk1NjE1MzA0MzUyMzk5NDUx.XtDmxg.AnNo4q2NDtqofZ_P_LVDBsj3DtI';
 
 
 
@@ -43,5 +42,5 @@ bot.on('message', (message)=>{
   
     
 })
-bot.login(token);
+bot.login(process.env.token);
 
