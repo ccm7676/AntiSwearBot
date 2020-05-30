@@ -1,14 +1,22 @@
 {
-  "name": "servbot",
+  "name": "antiswearbot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Carl Marino",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccm7676/AntiSwearBot.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccm7676/AntiSwearBot/issues"
+  },
+  "homepage": "https://github.com/ccm7676/AntiSwearBot#readme",
   "dependencies": {
-    "discord.js": "^12.2.0"
+    "discord.js": "^11.5.1"
   }
 }
