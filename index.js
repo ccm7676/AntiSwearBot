@@ -10,6 +10,7 @@ const warn3 = "716217925232623706";
 
 
 
+
 bot.on('ready', () =>{
     console.log("bot is online!");
 
@@ -35,6 +36,7 @@ bot.on('message', (message)=>{
             message.member.addRole(warn1);
             message.channel.send(message.member + "was warned")
         }
+
        
         
         
