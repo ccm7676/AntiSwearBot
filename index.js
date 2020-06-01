@@ -17,7 +17,9 @@ bot.on('ready', () =>{
 bot.on('message', (message)=>{
 
 
-    if(message.content.toLowerCase().includes("fuck") || message.content.toLowerCase().includes("cunt") || message.content.toLowerCase().includes("bitch") || message.content.toLowerCase().includes("ass") || message.content.toLowerCase().includes("fag") || message.content.toLowerCase().includes("shit") || message.content.toLowerCase().includes("nigger")|| message.content.toLowerCase().includes("nigga") || message.content.toLowerCase().includes("cum") || message.content.toLowerCase().includes("slut") || message.content.toLowerCase().includes("dick") || message.content.toLowerCase().includes("basterd") || message.content.toLowerCase().includes("cock")){
+    const msg = msg.split(" ").join()
+
+    if(msg.includes("fuck") || msg.includes("cunt") || msg.includes("bitch") || msg.includes("ass") || msg.includes("fag") || msg.includes("shit") || msg.includes("nigger")|| msg.includes("nigga") || msg.includes("cum") || msg.includes("slut") || msg.includes("dick") || msg.includes("basterd") || msg.includes("cock")){
         if(message.member.roles.has(warn3)){
             message.member.ban("swearing");
             message.channel.send(message.member + "was hit with the banhammer ban")
