@@ -17,7 +17,7 @@ bot.on('ready', () =>{
 bot.on('message', (message)=>{
 
 
-    const msg = message.content.split(" ").join()
+    const msg = message.content.split(" ").join();
 
 
     if(msg.includes("fuck") || msg.includes("cunt") || msg.includes("bitch") || msg.includes("ass") || msg.includes("fag") || msg.includes("shit") || msg.includes("nigger")|| msg.includes("nigga") || msg.includes("cum") || msg.includes("slut") || msg.includes("dick") || msg.includes("basterd") || msg.includes("cock")){
